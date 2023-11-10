@@ -69,8 +69,8 @@ st.markdown("""**What can you do to help reduce inequality?**
 * Speak out against discrimination and injustice.""")
 sdg2_power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=d17e26f1-b000-4046-972a-5c59591a2699&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7"
 st.components.v1.iframe(src=sdg2_power_bi_embed_url,width=1080, height=600, scrolling=False)
-
-st.markdown("""**PowerBI Dashboard Automation**
+st.title("PowerBI Dashboard Automation")
+st.markdown("""
 
 * Use Scopus to search for relevant data.
 * Export the data to csv file.
