@@ -33,15 +33,14 @@ st.markdown("""**What can you do to help Morocco achieve SDG2 Zero Hunger?*** Su
 * Reduce food waste
 * Donate to food banks and other organizations that are working to feed the hungry""")
 
-# st.markdown('<iframe title="odd2morocco" width="1000" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=3fcf39a9-1af1-4837-adaf-bc0eba0b0880&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
-sdg2_power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=3fcf39a9-1af1-4837-adaf-bc0eba0b0880&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7"
+
+sdg2_power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=******"
 
 
 
 # Display the iframe
 st.components.v1.iframe(src=sdg2_power_bi_embed_url,width=1080, height=600, scrolling=False)
 
-# st.markdown('<iframe title="odd10morocco" width="1000" height="541.25" src="https://app.fabric.microsoft.com/reportEmbed?reportId=d17e26f1-b000-4046-972a-5c59591a2699&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
 st.title("SDG 10: Reduced Inequality")
 st.subheader("How to achieve a more equitable world")
 
@@ -67,7 +66,7 @@ st.markdown("""**What can you do to help reduce inequality?**
 * Donate to charities and organizations that are working to reduce inequality.
 * Volunteer your time to help others in need.
 * Speak out against discrimination and injustice.""")
-sdg2_power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=d17e26f1-b000-4046-972a-5c59591a2699&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7"
+sdg2_power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=****"
 st.components.v1.iframe(src=sdg2_power_bi_embed_url,width=1080, height=600, scrolling=False)
 st.title("PowerBI Dashboard Automation")
 st.markdown("""
@@ -76,7 +75,7 @@ st.markdown("""
 * Export the data to csv file.
 * Upload the csv file to this platform.
 * Relax and wait while we change the data source for you.""")
-power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=08bc3bd7-8f4a-43bb-badf-3fa76a47f44f&autoAuth=true&ctid=eb12f8ec-35f2-415d-97bf-0e34301876a7"
+power_bi_embed_url = "https://app.fabric.microsoft.com/reportEmbed?reportId=****"
 st.components.v1.iframe(src=power_bi_embed_url,width=1080, height=600, scrolling=False)
 # Display the iframe
 
