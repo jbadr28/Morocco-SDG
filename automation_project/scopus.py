@@ -114,14 +114,13 @@ def upload(author_data,affiliation_data,meta_data,option):
   db_params = {
     "dbname": "scopus",
     "user": 'jbadr28',
-    "password": "wSum2Ymhg2JvQ3H",
-    "host": 'odd.postgres.database.azure.com',
+    "password": "password",
+    "host": 'host',
     "port": "5432"  # The default PostgreSQL port is 5432
     # # Use "require" for secure SSL/TLS connection
   }
 
   #create the connection engine
-  #db_connection = create_engine('postgresql://postgres:bader456@localhost:5432/scopus')
   db_connection = create_engine(f'postgresql+psycopg2://{db_params["user"]}:{db_params["password"]}@{db_params["host"]}/{db_params["dbname"]}')
   affiliation_data.to_sql('Affiliation', db_connection, if_exists=option, index=False)
 
